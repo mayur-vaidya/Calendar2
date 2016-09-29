@@ -1,0 +1,56 @@
+.month {
+  background: #F7F7F9;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  padding : 20px 40px;
+  text-align: center;
+}
+
+.container-month {
+  min-height: 100px;
+}
+
+.week-days{
+  font-size: 25px;
+  padding: 15px 40px;
+}
+
+.fullDates {
+  font-size: 30px;
+  padding: 15px 70px;
+  text-align: center;
+}
+
+.fullDates:hover {
+  background: gray;
+  color: #FFFFFF;
+}
+
+.fullDates1 {
+  font-size: 30px;
+  padding: 15px 70px;
+  text-align: center;
+}
+
+.year-Drop-Down {
+  
+}
+
+.today {
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.current-time{
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.previous {
+  text-align: center;
+}

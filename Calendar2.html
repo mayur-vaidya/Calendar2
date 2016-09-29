@@ -1,0 +1,68 @@
+<DOCYTYPE html>
+<html>
+<head>
+  <title> Calandar 2018 </title>
+  <link rel="stylesheet" href="calan2.css">
+  <script src="cal2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body onload="loader()">
+  <div class="container-fluid">
+    <div class="row ">
+      <!--<div class="col-md-2">
+      </div>-->
+      <div class="col-md-12 month container-month">
+        <p id="monthName"></p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="month-area">
+              <select class="drop-down-month" onchange="dropMonth()" id="monthDrop">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+                <option value="11"></option>
+              </select><br>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="yearDown" class="year-Drop-Down">
+          </div>
+        </div>
+      </div>
+      <!--<div class="col-md-2">
+      </div>-->
+    </div>
+  </div>
+  <div class="container-fluid">
+    <table align="center">
+      <tr>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+        <td class="week-days"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="month-dates">
+    <p id="dates"></p>
+  </div>
+  <div class="previous">
+    <button type="button" class="today" onclick="present()"> Today </button>
+  </div>
+  <div id="currentDay" class="current-time">
+  </div>
+</body>
+</html>
